@@ -1,0 +1,24 @@
+<header>
+<div class="title">
+<h1>{{ title }}</h1>
+</div>
+<section class="top-container">
+<button (click)='showForm()' type="button" class="newPost">New Thought</button>
+</section>
+<div class="main-container">
+<post  
+*ngFor = 'let post of posts; let i = index'
+[post] = "post"
+(deleted)="onDelete(i)"
+></post>
+
+<postForms
+[show] = 'show'
+(submitted) = 'onSubmit($event)'
+></postForms>
+</div>
+
+</header>
+
+
+

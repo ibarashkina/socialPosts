@@ -1,0 +1,67 @@
+section {
+    border: 1px solid black;
+    border-radius: 7px;
+    font-size: 15px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    height:auto;
+    margin-right: 2em;
+    width:35.0em; 
+    margin-left:14.5em;
+    background: lightgray;
+  
+}
+
+
+.partOne, .partTwo,.addPost,button {
+    display: flex;
+    flex-direction: column; 
+    margin:.7em;
+    width:35.0em;
+    margin-left:5.5em;
+}
+
+label {
+  padding: .9em;
+
+}
+input, textarea {
+  padding: .9em;
+  width: 30em;
+}
+
+.addPost,button {
+    border-radius: 5px;
+    margin: 1.0em 7.5em;
+    padding: 1.2em 13.1em;
+    width: 31.8em;
+    font-weight: bold;
+     
+}
+
+input:focus {
+    width: 70%;
+    outline: none;
+   }
+
+input {
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+   }
+   
+   
+textarea:focus {
+    height: 150px;
+    outline: none;
+   }
+   
+   textarea {
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+   
+   }

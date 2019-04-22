@@ -1,0 +1,24 @@
+.showInput {
+    border-bottom: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 7px;
+    position: relative;
+    background: white;
+    margin-right: 2em;
+    margin-left:10.2em;
+    width:35.0em; 
+}
+
+p {
+    font-size:15px; 
+}
+
+i {
+    position: absolute;
+    top: 5.0em;
+    left: 40em;
+    color: black;
+}
+

@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background: lightblue;
+    background-repeat: no-repeat;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center; 
+    align-items: center;
+     height: auto;
+     width: 100%;
+     /* margin: 1rem auto; */
+     font-family: "Times New Roman", Times, serif;
+ }

@@ -1,0 +1,22 @@
+.newPost {
+    border: 1px solid black;
+    border-radius: 7px;
+    margin-bottom: 2.0em;
+    background: white;
+    font-size: 27px;
+    padding: .5em;
+    width:35.0em;
+    font-weight: bold;
+}
+
+.main-container {
+    border: 1px solid black;
+    border-radius: 7px;
+    background: white;
+}
+h1 {
+    text-align: center;
+    color:blue;
+    font-family: cursive;
+    font-weight: bold;
+}
