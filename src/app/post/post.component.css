@@ -1,5 +1,5 @@
 .showInput {
-    border-bottom: 1px solid gray;
+    
     display: flex;
     flex-direction: column;
     background: white;
@@ -8,11 +8,16 @@
     background: white;
     margin-right: 2em;
     margin-left:10.2em;
+    padding-bottom:1em;
     width:35.0em; 
+}
+.border {
+    border-bottom: 1px solid gray;
 }
 
 p {
-    font-size:15px; 
+    font-size:15px;
+    padding-bottom:1em; 
 }
 
 i {

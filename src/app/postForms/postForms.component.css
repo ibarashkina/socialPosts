@@ -1,41 +1,59 @@
-section {
-    border: 1px solid black;
-    border-radius: 7px;
-    font-size: 15px;
-    background: white;
+.form {
+    z-index: 500;
+    position: fixed;
+    height: 125vh;
     display: flex;
-    flex-direction: column;
-    height:auto;
-    margin-right: 2em;
-    width:35.0em; 
-    margin-left:14.5em;
-    background: lightgray;
-  
+    align-items: center;
+    top: 0px;
+    width: 90%;
+   
 }
 
+section {
+    background: lightgray;
+    width: auto;
+    max-width: 700px;
+    border-radius: 10px;
+    padding: 2.0em;
+    padding-right:5.2em;
+    padding-left: 10em;
+    position: relative;
+    opacity: 10;
+  
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:45.0em; 
+    
+}
 
 .partOne, .partTwo,.addPost,button {
     display: flex;
     flex-direction: column; 
     margin:.7em;
     width:35.0em;
-    margin-left:5.5em;
 }
 
 label {
   padding: .9em;
+  padding-left:0;
 
 }
 input, textarea {
-  padding: .9em;
-  width: 30em;
+  padding: 1.0em;
+  width: 40em;
 }
 
 .addPost,button {
     border-radius: 5px;
-    margin: 1.0em 7.5em;
-    padding: 1.2em 13.1em;
-    width: 31.8em;
+    margin: 1.0em;
+    margin-right: 10em;
+    padding: 1.2em;
+    padding-right: 10em;
+    padding-left: 12.0em;
+    width: 30em;
     font-weight: bold;
      
 }
