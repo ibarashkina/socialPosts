@@ -1,5 +1,6 @@
 import { Component} from '@angular/core';
 import { Posting } from '../postForms/postForms.component'
+import { THIS_EXPR } from '@angular/compiler/src/output/output_ast';
 @Component({
   selector: 'socialPosts',
   templateUrl: './socialPosts.component.html',
@@ -26,7 +27,7 @@ onShowEvent = (event) => {
   this.show = event;
 }
 showForm = () => {
-    this.show = true;
+    this.show = !this.show;
 }
 onDelete = (i) => {
   this.posts.splice(i, 1);
